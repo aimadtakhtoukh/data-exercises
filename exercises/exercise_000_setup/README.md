@@ -17,29 +17,21 @@ To run the project, your environment must have these prerequisites:
 
 The exercises will depend on Docker and Docker Compose, via docker-compose.yml files in the exercises. They'll allow us to run a Spark cluster and other parts of the stack we'll need.
 
-Check if everything is working by running :
-
-    docker --version
-
-The command should return
+Check if everything is working by running `docker --version`. The command should return
 
     Docker version 25.0.2, build 29cf629
 
-Docker Compose now is installed by default with Docker, so you can run :
-
-    docker compose version
-
-And the command should return 
+Docker Compose now is installed by default with Docker, so you can run `docker compose version`. The command should return 
 
     Docker Compose version v2.24.3-desktop.1
 
-### SBT
+### Scala and SBT
 
-SBT is what we'll use to build, get dependencies and run tests.
+If Scala and sbt aren't installed yet, get Coursier at https://get-coursier.io/
 
-Check if everything is working by running :
+Exercises are written in Scala, and SBT is what we'll use to build, get dependencies and run tests.
 
-    sbt test
+Check if everything is working by running `sbt test`.
 
 After a while pulling, compiling and running the test, you should see :
 
@@ -53,3 +45,7 @@ After a while pulling, compiling and running the test, you should see :
     [info] All tests passed.
 
 ### CMTC
+
+Finally, if you don't have cmtc installed yet, install Coursier (or use it from earlier) and run `cs install --contrib cmtc`
+
+When you're ready, run `cmtc next-exercise` to load the next exercise.
