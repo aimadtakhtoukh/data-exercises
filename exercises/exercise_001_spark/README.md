@@ -15,7 +15,9 @@ To see your code run, you can run these commands:
     
 ### Exercise
 
-You're provided, in data/food-price-index-march-2022-index-numbers-csv-tables.csv, a set of month-per-month data on the food price index evolution in New Zealand from January 1960 to March 2022, split by series. We want an average of the food price index for the "Food" series, grouped by year.
+You're provided, in data/food-price-index-march-2022-index-numbers-csv-tables.csv, a set of month-per-month data on the food price index evolution in New Zealand from January 1960 to March 2022, split by series. 
+
+We want you to implement `example.Operations.averageFoodPriceIndexByYear`, that takes the dataframe in SparkApp and returns an average of the food price index for the "Food" series, grouped by year.
 
 Please load the CSV in a Dataframe and discover the methods it gives you to split the work between the workers and obtain the info we need.
 
