@@ -48,4 +48,6 @@ After a while pulling, compiling and running the test, you should see :
 
 Finally, if you don't have cmtc installed yet, install Coursier (or use it from earlier) and run `cs install --contrib cmtc`
 
+You'll need to run `cmtc set-current-course -s .` to start the course.
+
 When you're ready, run `cmtc next-exercise` to load the next exercise.
