@@ -1,4 +1,4 @@
-# Exercise 1 : Spark
+# Exercise 2 : Spark
 
 ### Setup
 

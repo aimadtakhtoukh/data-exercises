@@ -1,7 +1,6 @@
 package example
 
-import org.apache.spark.sql.{DataFrame, SparkSession}
-import utils.ExerciseUtils._
+import org.apache.spark.sql.SparkSession
 
 object SparkApp extends App {
 
