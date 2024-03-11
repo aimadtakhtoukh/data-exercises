@@ -19,4 +19,6 @@ You can find out how reading here : https://sparkbyexamples.com/spark/sparksessi
 
 You can see a correction by running `cmtc pull-solution`.
 
-Don't forget to run `docker compose down` before running `cmtc next-exercise`.
+You can stop the cluster with `docker compose down`.
+
+When you're ready, run `cmtc next-exercise` to load the next exercise.

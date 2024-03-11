@@ -15,3 +15,5 @@ You can find out how reading here : https://sparkbyexamples.com/spark/sparksessi
 ### Clean-up
 
 You can see a correction by running `cmtc pull-solution`.
+
+When you're ready, run `cmtc next-exercise` to load the next exercise.
