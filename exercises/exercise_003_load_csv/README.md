@@ -1,9 +1,8 @@
-# Exercise 2 : Spark remote cluster
+# Exercise 3 : Load a CSV
 
 ### Setup
 
-We've added a docker-compose.yml file! You can run `docker compose up -d` to load a small Spark cluster, with a master and two workers.
-Once it's running, you can see the web UI at http://localhost:8080.
+We've added a data file : `data/food-price-index-march-2022-index-numbers-csv-tables.csv`, describing the evolution of the food price index, by months.
 
 ### Exercise
 

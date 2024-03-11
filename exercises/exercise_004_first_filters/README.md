@@ -1,13 +1,12 @@
-# Exercise 2 : Spark
+# Exercise 3 : First operations
 
 ### Setup
 
 First, build.sbt has been updated, so run `sbt reload` to get the spark library.
 
-Then run `docker compose up -d` to load a small Spark cluster, with a master and two workers.
-Once it's running, you can see the web UI at http://localhost:8080.
+From now on, we'll run our code directly on the cluster.
 
-To see your code run, you can run these commands:
+To do so, you can run these commands:
 
     sbt assembly
     docker cp target/scala-2.12/spark-assembly-0.1.0-SNAPSHOT.jar ras-spark:opt/bitnami/spark/app.jar
@@ -25,4 +24,4 @@ Please load the CSV in a Dataframe and discover the methods it gives you to spli
 
 You can see a correction by running `cmtc pull-solution`.
 
-Don't forget to run `docker compose down` before running `ctmc next-exercise`.
+Don't forget to run `docker compose down` before running `cmtc next-exercise`.

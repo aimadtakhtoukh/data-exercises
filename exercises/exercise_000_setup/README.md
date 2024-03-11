@@ -44,6 +44,8 @@ After a while pulling, compiling and running the test, you should see :
     [info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
     [info] All tests passed.
 
+Run the tests during the exercises to see what results are expected.
+
 ### CMTC
 
 Finally, if you don't have cmtc installed yet, install Coursier (or use it from earlier) and run `cs install --contrib cmtc`
