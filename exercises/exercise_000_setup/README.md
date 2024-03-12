@@ -6,6 +6,7 @@ The goal is to explore classic tools for big data jobs.
 
 To run the project, your environment must have these prerequisites:
 
+- java 11 (more recent versions may not work with Sparkv)
 - docker
 - scala
 - sbt
