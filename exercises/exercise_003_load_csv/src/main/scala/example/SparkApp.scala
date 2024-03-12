@@ -20,7 +20,7 @@ object SparkApp extends App {
       .option("header", "true")
       .option("inferSchema", "true")
       .csv(csvPath)
-//      .repartition(2)
+      .repartition(2)
 
   println(dataframeFromCSV().show())
 }
