@@ -1,0 +1,61 @@
+Pour référence, les idées d'exercices fournis par ChatGPT, avec les prompts:
+
+User
+Donne moi les entêtes d'une quinzaine d'exercices sur Spark en Scala, travaillant sur les données du food index néo-zélandais en csv
+ChatGPT
+
+Voici les entêtes d'une quinzaine d'exercices sur Spark en Scala qui pourraient être réalisés en travaillant sur les données du food index néo-zélandais en format CSV :
+
+    Lecture des données CSV dans Spark DataFrame.
+    Affichage des premières lignes du DataFrame pour une visualisation initiale.
+    Compter le nombre total de lignes dans le DataFrame.
+    Filtrer les données pour n'inclure que certaines colonnes pertinentes.
+    Filtrer les données pour exclure les lignes avec des valeurs manquantes.
+    Agréger les données pour obtenir des statistiques récapitulatives.
+    Calculer la moyenne d'une colonne numérique spécifique.
+    Identifier les valeurs uniques dans une colonne donnée.
+    Regrouper les données par une colonne et compter le nombre d'occurrences.
+    Effectuer une jointure avec un autre DataFrame basé sur une clé commune.
+    Utiliser des expressions SQL pour interroger les données DataFrame.
+    Convertir les données d'une colonne en un type différent, par exemple de String à Integer.
+    Ajouter une nouvelle colonne dérivée basée sur des calculs ou des conditions.
+    Représentation graphique des données à l'aide de bibliothèques telles que Matplotlib ou ggplot.
+    Exporter les données traitées dans un nouveau fichier CSV ou dans une base de données.
+
+Ces exercices peuvent servir de base pour explorer et analyser les données du food index néo-zélandais à l'aide de Spark en Scala.
+User
+Donne moi l'intitulé de 10 exercices pour travailler sur Kafka, à partir des mêmes données
+ChatGPT
+
+Voici l'intitulé de 10 exercices pour travailler sur Kafka à partir des données du food index néo-zélandais en format CSV :
+
+    Créer un producteur Kafka pour envoyer les données du fichier CSV dans un topic Kafka.
+    Écrire un consommateur Kafka pour récupérer les données du topic Kafka et les afficher.
+    Implémenter un système de traitement en continu (streaming) pour surveiller les nouveaux messages envoyés au topic Kafka.
+    Mettre en œuvre une architecture de traitement par lot (batch) pour traiter les données du topic Kafka à intervalles réguliers.
+    Utiliser Kafka Connect pour intégrer les données du topic Kafka dans une base de données externe.
+    Implémenter un système de filtrage pour ne conserver que les messages pertinents du topic Kafka.
+    Écrire un programme Kafka Streams pour effectuer des transformations complexes sur les données en transit.
+    Mettre en place une stratégie de gestion des erreurs et de reprise sur panne pour assurer la tolérance aux pannes du système Kafka.
+    Écrire des tests unitaires et d'intégration pour valider le comportement du producteur, du consommateur et des autres composants Kafka.
+    Mettre en place un environnement de production Kafka distribué avec plusieurs brokers, partitions et réplications pour garantir la scalabilité et la disponibilité du système.
+
+Ces exercices fournissent une base solide pour acquérir une expérience pratique avec Apache Kafka en traitant les données du food index néo-zélandais.
+User
+Donne moi l'intitulé de 10 exercices pour explorer Cassandra
+ChatGPT
+
+Voici l'intitulé de 10 exercices pour explorer Cassandra :
+
+    Créer un cluster Cassandra local et configurer les nœuds pour qu'ils communiquent entre eux.
+    Créer un keyspace dans Cassandra pour stocker les données du food index néo-zélandais.
+    Concevoir et créer une table dans Cassandra pour stocker les données du food index néo-zélandais, en choisissant les types de données appropriés.
+    Insérer des données du fichier CSV dans la table Cassandra.
+    Effectuer des requêtes de lecture simples pour récupérer des lignes spécifiques de la table Cassandra.
+    Mettre en place un modèle de données en utilisant des partitions et des clés de regroupement appropriées pour optimiser les performances des requêtes.
+    Utiliser les index secondaires pour faciliter les requêtes sur des colonnes spécifiques.
+    Mettre en œuvre la mise à jour des données existantes dans la table Cassandra.
+    Mettre en place un processus de sauvegarde et de restauration pour assurer la durabilité des données dans Cassandra.
+    Expérimenter avec la mise à l'échelle du cluster Cassandra en ajoutant de nouveaux nœuds et en répartissant les données entre eux.
+
+Ces exercices offrent une introduction pratique à l'utilisation de Cassandra pour explorer et manipuler les données du food index néo-zélandais.
